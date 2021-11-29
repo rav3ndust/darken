@@ -1,4 +1,4 @@
-# Dark Theme Everywhere
+# darken.
 
 **Bring Dark Mode to every web page.**
 
