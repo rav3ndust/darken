@@ -1,7 +1,7 @@
 {
-	"name": "Dark Theme Everywhere",
-	"short_name": "Dark Theme",
-	"description": "Darkens bright pages for easier night time reading.  Unofficial improvement of 'Nicer Inverter'.",
+	"name": "darken.",
+	"short_name": "darken",
+	"description": "Bring Dark Theme to the web.",
 	"background": {
 		"scripts": [ "background.js" ]
 	},
@@ -17,7 +17,7 @@
 	"manifest_version": 2,
 	"applications": {
 		"gecko": {
-			"id": "dark-theme-everywhere@rileyjshaw.com"
+			"id": "rav3nwing@protonmail.com"
 		}
 	},
 	"content_scripts": [
