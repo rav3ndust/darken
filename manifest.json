@@ -6,20 +6,15 @@
 		"scripts": [ "background.js" ]
 	},
 	"browser_action": {
-		"default_icon": "icon38.png",
-		"default_title": "Toggle dark theme"
+		"default_icon": "icon16-light.png",
+		"default_title": "darken."
 	},
 	"icons": {
-		"128": "icon128.png",
-		"48": "icon48.png",
-		"16": "icon16.png"
+		"128": "icon16-light.png",
+		"48": "icon16-light.png",
+		"16": "icon16-light.png"
 	},
 	"manifest_version": 2,
-	"applications": {
-		"gecko": {
-			"id": "rav3nwing@protonmail.com"
-		}
-	},
 	"content_scripts": [
 		{
 			"matches": ["<all_urls>"],
@@ -32,8 +27,8 @@
 	],
 	"options_page": "options.html",
 	"web_accessible_resources": [
-		"icon38.png",
-		"icon38-light.png"
+		"icon16.png",
+		"icon16-light.png"
 	],
 	"version": "6.0.0"
 }
