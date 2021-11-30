@@ -87,7 +87,7 @@
 
 	// Helper function to set the browser action icon.
 	function setIcon (isDark) {
-		var file = 'icon38' + (isDark ? '' : '-light') + '.png';
+		var file = 'icon16.png' + (isDark ? '' : '-light') + '.png';
 		chrome.browserAction.setIcon({path: chrome.extension.getURL(file)});
 	}
 }(this);
