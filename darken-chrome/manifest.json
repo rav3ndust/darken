@@ -1,0 +1,34 @@
+{
+	"name": "darken.",
+	"short_name": "darken",
+	"description": "Bring Dark Theme to the web.",
+	"background": {
+		"scripts": [ "background.js" ]
+	},
+	"browser_action": {
+		"default_icon": "icon16-light.png",
+		"default_title": "darken."
+	},
+	"icons": {
+		"128": "icon16-light.png",
+		"48": "icon16-light.png",
+		"16": "icon16-light.png"
+	},
+	"manifest_version": 2,
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"match_about_blank": true,
+			"js": ["client.js"],
+			"css": ["main.css"],
+			"run_at": "document_start",
+			"all_frames": true
+		}
+	],
+	"options_page": "options.html",
+	"web_accessible_resources": [
+		"icon16.png",
+		"icon16-light.png"
+	],
+	"version": "6.0.0"
+}
